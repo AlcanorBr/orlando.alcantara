@@ -1,14 +1,109 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Meu Site</title>
+    <title>Escritório de Advocacia - [Nome do Escritório]</title>
+    <meta name="description" content="Escritório de advocacia especializado em direito de família e empresarial em [Cidade]. Atendimento personalizado e soluções eficientes.">
+    <meta name="keywords" content="advogado, direito de família, direito empresarial, divórcio, contratos, [Cidade]">
+    <meta name="robots" content="index, follow">
     <link rel="stylesheet" href="style.css">
+   
 </head>
 <body>
-    <h1>Bem-vindo ao meu site!</h1>
-    <p>Gostosa.</p>
+    <header>
+        <div class="container">
+            <h1>[Nome do Escritório]</h1>
+            <nav>
+                <ul>
+                    <li><a href="#inicio">Início</a></li>
+                    <li><a href="#sobre">Sobre</a></li>
+                    <li><a href="#areas">Áreas de Atuação</a></li>
+                    <li><a href="#equipe">Equipe</a></li>
+                    <li><a href="#contato">Contato</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <section id="inicio" class="hero">
+        <div class="container">
+            <h2>Bem-vindo ao [Nome do Escritório]</h2>
+            <p>Soluções jurídicas personalizadas para suas necessidades em direito de família e empresarial.</p>
+            <a href="#contato" class="btn">Entre em contato</a>
+        </div>
+    </section>
+
+    <section id="sobre" class="sobre">
+        <div class="container">
+            <h2>Sobre nós</h2>
+            <p>Nosso escritório possui vasta experiência nas áreas de direito de família e empresarial, oferecendo atendimento personalizado e soluções eficientes para cada cliente.</p>
+        </div>
+    </section>
+
+    <section id="areas" class="areas">
+        <div class="container">
+            <h2>Áreas de Atuação</h2>
+            <div class="areas-grid">
+                <div class="area">
+                    <h3>Direito de Família</h3>
+                    <ul>
+                        <li>Divórcio</li>
+                        <li>Pensão alimentícia</li>
+                        <li>Guarda de filhos</li>
+                        <li>Inventário</li>
+                    </ul>
+                </div>
+                <div class="area">
+                    <h3>Direito Empresarial</h3>
+                    <ul>
+                        <li>Contratos</li>
+                        <li>Societário</li>
+                        <li>Tributário</li>
+                        <li>Trabalhista</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="equipe" class="equipe">
+        <div class="container">
+            <h2>Nossa Equipe</h2>
+            <div class="equipe-grid">
+                <div class="advogado">
+                    <img src="advogado1.jpg" alt="Advogado 1">
+                    <h3>[Nome do Advogado 1]</h3>
+                    <p>Especialista em Direito de Família</p>
+                </div>
+                <div class="advogado">
+                    <img src="advogado2.jpg" alt="Advogado 2">
+                    <h3>[Nome do Advogado 2]</h3>
+                    <p>Especialista em Direito Empresarial</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="contato" class="contato">
+        <div class="container">
+            <h2>Contato</h2>
+            <p>Entre em contato conosco para agendar uma consulta.</p>
+            <form action="#" method="post">
+                <input type="text" name="nome" placeholder="Nome">
+                <input type="email" name="email" placeholder="E-mail">
+                <textarea name="mensagem" placeholder="Mensagem"></textarea>
+                <button type="submit" class="btn">Enviar</button>
+            </form>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2024 [Nome do Escritório]. Todos os direitos reservados.</p>
+        </div>
+    </footer>
+
     <script src="script.js"></script>
 </body>
 </html>
